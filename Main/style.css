@@ -1,0 +1,44 @@
+/* CSS Document */
+<style>
+.main_block {
+
+	padding:0px;
+	margin-top:10px;
+}
+
+.link_block {
+	display:inline;
+}
+
+.link_block li {
+	display:inline;
+	border-bottom:#fff solid 1px;
+	
+}
+
+.link_active a {background:#fff;
+color:#000;
+font-size:18px;
+padding:10px;
+}
+
+.link_passive a {
+color:#666;
+text-decoration:none;
+border-bottom: 1px dashed #666;
+}
+
+.link_passive a:hover {
+color:#666;
+text-decoration:none;
+}
+
+#article {background:#fff;
+margin-top:10px;
+}
+
+#links {background:#fff;
+margin-top:10px;
+}
+
+</style>

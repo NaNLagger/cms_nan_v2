@@ -1,0 +1,53 @@
+/* top */
+.social-icons {
+	float: left;
+}
+.social-icons a {
+	float: left;
+	display: block;
+	width: 19px;
+	height: 20px;
+	margin: 11px 0 0 0;
+	padding: 0 12px;
+	border-left: 1px solid #444;
+	background: url('social_icons.png') no-repeat 18px 2px;
+	text-indent: -9999px;
+	-webkit-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+	   -moz-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+	     -o-transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+	        transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.social-icons a.gkFb {
+	background-position: 14px 2px;
+}
+
+.social-icons a.gkFb:hover {
+	background-position: 14px -50px;
+}
+
+.social-icons a.gkTwitter {
+	background-position: -22px 2px;	
+}
+
+.social-icons a.gkTwitter:hover {
+	background-position: -22px -50px;
+}
+
+.social-icons a.gkGplus {
+	background-position: -68px 2px;
+}
+
+.social-icons a.gkGplus:hover {
+	background-position: -68px -50px;
+}
+
+.social-icons a.gkRss {
+	background-position: -115px 2px;
+	border-right: 1px solid #444;
+	margin-right: 32px;
+}
+
+.social-icons a.gkRss:hover {
+	background-position: -115px -50px;
+}

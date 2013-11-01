@@ -1,0 +1,1 @@
+<div style="margin:15px; margin-left:25px; margin-top:30px; "><img src="<? echo $URL_SITE; ?>/image/logo.png" width="198" height="25" alt="logo" /></div>
